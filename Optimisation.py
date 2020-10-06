@@ -1,13 +1,11 @@
 """
-Your Name
-Coding Challenge 2 - Drop It Like It's Hot - Solution
-CSE 331 Fall 2020
-Professor Sebnem Onsay
+Nikit Parakh
+Optimisation
 """
 from typing import List, Tuple
 
 
-def firefighter(grid: List[List[int]], k: int) -> Tuple[int, int, int]:
+def Optimise(grid: List[List[int]], k: int) -> Tuple[int, int, int]:
     """
     Given an n x n 2D list of 0's and 1's and an integer k, determine the greatest number of 1's
     that can be covered by a square of size k x k. Return a tuple (a, b, c) where
